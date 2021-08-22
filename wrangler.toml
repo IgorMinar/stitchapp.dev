@@ -1,0 +1,13 @@
+# https://developers.cloudflare.com/workers/cli-wrangler/configuration
+
+name = "stitchapp.dev"
+type = "javascript"
+zone_id = ""
+account_id = ""
+route = ""
+workers_dev = true
+
+[build]
+command = "npm install && npm run build-workers"
+[build.upload]
+format = "service-worker"

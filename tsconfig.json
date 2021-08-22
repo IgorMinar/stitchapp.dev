@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "lib": ["esnext", "webworker"],
+    "strict": true,
+    "preserveConstEnums": true,
+    "moduleResolution": "node",
+    "types": [
+      "@cloudflare/workers-types",
+    ]
+  },
+  "include": ["src"],
+}
