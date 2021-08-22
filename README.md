@@ -19,6 +19,8 @@ There is currently no hydration or client-side JavaScript.
 The odd looking proxy exists to work around the current limitation of Cloudflare which otherwise doesn't allow workers to make request to other workers, unless the other workers run on a different domain.
 [More info](https://community.cloudflare.com/t/issue-with-worker-to-worker-https-request/94472/8)
 
+The `server.ts` file is powered by [miniflare](https://miniflare.dev/) which emulates Cloudflare's Edge environment to speed up local development and testing.
+
 
 ## Getting started
 
